@@ -1,4 +1,4 @@
-# Portfolio — Amine Mefti
+# Portfolio: Amine Mefti
 
 Ce dépôt contient le code source de mon portfolio personnel. Le site est construit en HTML/CSS/JS vanilla, avec un design corporatif asymétrique et un support bilingue français/anglais.
 
@@ -13,7 +13,7 @@ Je travaille sur des systèmes embarqués, du développement web full-stack, et 
 
 ## Projets
 
-### SeatFindr — Suivi d'occupation en temps réel
+### SeatFindr: Suivi d'occupation en temps réel
 Système IoT complet pour suivre la disponibilité des salles d'étude. Capteur radar mmWave (HLK-LD2450) sur ESP32, Firebase en backend, application Android native.
 
 **Réalisations :** Architecture du firmware C++, optimisation de la communication basse latence vers Firebase, interface d'administration, et simulation Python pour le réglage des paramètres de détection.
