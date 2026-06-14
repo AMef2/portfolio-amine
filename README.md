@@ -6,8 +6,7 @@ Ce dépôt contient le code source de mon portfolio personnel. Le site est const
 
 ## À propos
 
-Étudiant en 3e année de génie informatique à l'Université Concordia (Montréal). Mon domaine de prédilection est la zone de friction entre le matériel et le logiciel — là où un bug est souvent un octet mal placé dans un registre plutôt qu'une erreur de syntaxe.
-
+Étudiant en 3e année de génie informatique à l'Université Concordia (Montréal). 
 Je travaille sur des systèmes embarqués, du développement web full-stack, et sur l'automatisation de processus administratifs répétitifs.
 
 ---
