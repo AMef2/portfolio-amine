@@ -38,28 +38,22 @@ Agent de bureau. Transition des dossiers papier vers le format numérique, struc
 `Excel` `Data Management` `Customer Service`
 
 ---
-
 ## Stack technique
 
-| Domaine | Outils |
-|---|---|
-| Langages | C++, Python, JavaScript, Java |
-| Web | React.js, Express.js, Node.js, HTML/CSS |
-| Embarqué | ESP32, Arduino, capteurs mmWave |
-| Données | Firebase, Excel |
-| DevOps | Git, Azure DevOps |
-
----
+- Langages : C++, Python, JavaScript, Java
+- Web : React.js, Express.js, Node.js, HTML/CSS
+- Embarqué : ESP32, Arduino, capteurs mmWave
+- Données : Firebase, Excel
+- DevOps : Git, Azure DevOps
 
 ## Structure du dépôt
 
 /
-├── index.html      # Structure et contenu (bilingue FR/EN)
-├── style.css       # Design system — grille asymétrique
-├── script.js       # Lang toggle, lightbox, nav active
-└── assets/         # Images des projets et photo de profil
-
+├── index.html       # Structure et contenu
+├── style.css        # Design system
+├── script.js        # Logique interactive
+└── assets/          # Images et ressources
 
 ---
+Dernière mise à jour : juin 2026.
 
-*Dernière mise à jour : juin 2026.*
