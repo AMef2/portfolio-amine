@@ -46,14 +46,6 @@ Agent de bureau. Transition des dossiers papier vers le format numérique, struc
 - Données : Firebase, Excel
 - DevOps : Git, Azure DevOps
 
-## Structure du dépôt
-
-/
-├── index.html       # Structure et contenu
-├── style.css        # Design system
-├── script.js        # Logique interactive
-└── assets/          # Images et ressources
-
 ---
 Dernière mise à jour : juin 2026.
 
