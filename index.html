@@ -1,0 +1,243 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Amine Mefti — Computer Engineering Student at Concordia University. Full-stack web development and embedded systems.">
+  <title>Amine Mefti — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header id="site-header">
+    <div class="header-inner">
+      <a href="#hero" class="nav-brand">AM</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#hero"     data-en="About"    data-fr="À propos">About</a>
+        <a href="#projects" data-en="Projects" data-fr="Projets">Projects</a>
+        <a href="#contact"  data-en="Contact"  data-fr="Contact">Contact</a>
+      </nav>
+      <button id="lang-toggle" aria-label="Switch to French">FR</button>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="hero">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <p class="hero-label"
+             data-en="Computer Engineering · Concordia University · Montreal"
+             data-fr="Génie Informatique · Université Concordia · Montréal">
+            Computer Engineering · Concordia University · Montreal
+          </p>
+          <h1 class="hero-name">Amine<br>Mefti</h1>
+          <p class="hero-desc"
+             data-en="Student specializing in full-stack web development and embedded systems. Building software that bridges hardware and the web."
+             data-fr="Étudiant spécialisé en développement web full-stack et systèmes embarqués. Je construis des logiciels qui relient le matériel et le web.">
+            Student specializing in full-stack web development and embedded systems.
+            Building software that bridges hardware and the web.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn--primary" data-en="View Projects" data-fr="Voir les projets">View Projects</a>
+            <a href="#contact"  class="btn btn--ghost"   data-en="Get in Touch"  data-fr="Me contacter">Get in Touch</a>
+            <a href="https://github.com/AMef2" target="_blank" rel="noopener" class="btn btn--social" data-en="GitHub" data-fr="GitHub">GitHub</a>
+            <a href="https://www.linkedin.com/in/amine-mefti-007589307/" target="_blank" rel="noopener" class="btn btn--social" data-en="LinkedIn" data-fr="LinkedIn">LinkedIn</a>
+          </div>
+        </div>
+        <div class="hero-photo-col">
+          <div class="hero-photo-frame">
+            <img src="assets/AminePic.jpg" id="hero-photo" alt="Amine Mefti" class="hero-photo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="section-intro">
+        <span class="section-index">02</span>
+        <h2 data-en="Selected Projects" data-fr="Projets sélectionnés">Selected Projects</h2>
+      </div>
+
+      <article class="project" id="seatfindr">
+        <header class="project-header">
+          <div class="project-id-col"><span class="project-num">01</span></div>
+          <div class="project-title-col">
+            <div class="project-tags">
+              <span class="tag tag--blue">IoT</span>
+              <span class="tag tag--blue">Embedded</span>
+              <span class="tag tag--blue">Android</span>
+              <span class="tag tag--gray">ELEC/COEN 390</span>
+            </div>
+            <h3 class="project-name">
+              SeatFindr
+              <em data-en="— Live Occupancy Tracker" data-fr="— Suivi de disponibilité en temps réel">— Live Occupancy Tracker</em>
+            </h3>
+          </div>
+        </header>
+        <div class="project-body">
+          <div class="project-left">
+            <p class="project-desc"
+               data-en="End-to-end IoT system tracking study room availability using an ESP32 WROOM, HLK-LD2450 mmWave Radar, and Firebase Realtime Database."
+               data-fr="Système IoT de bout en bout permettant de suivre la disponibilité des salles d'étude via un ESP32 WROOM, un radar mmWave HLK-LD2450 et Firebase Realtime Database.">
+              End-to-end IoT system tracking study room availability using an ESP32 WROOM, HLK-LD2450 mmWave Radar, and Firebase Realtime Database.
+            </p>
+            <ul class="feature-list">
+              <li data-en="C++ firmware programming on microcontrollers for radar sensor hardware state management." data-fr="Programmation de micrologiciels en C++ sur microcontrôleurs pour la gestion des états matériels de capteurs radar.">C++ firmware programming on microcontrollers for radar sensor hardware state management.</li>
+              <li data-en="Python simulation evaluating optimal mounting parameters for the LD2450 mmWave sensor when monitoring a small 3-seat classroom zone." data-fr="Simulation Python évaluant les paramètres de montage optimaux du capteur mmWave LD2450 pour la surveillance d'une zone de classe de 3 sièges.">Python simulation evaluating optimal mounting parameters for the LD2450 mmWave sensor when monitoring a small 3-seat classroom zone.</li>
+              <li data-en="Native Android App (Java) with dual roles: Student and Admin." data-fr="Application Android native (Java) avec deux rôles : Étudiant et Admin.">Native Android App (Java) with dual roles: Student and Admin.</li>
+              <li data-en="Admin controls for manual closures (Maintenance, Events, Exams) and capacity overrides." data-fr="Contrôles admin pour fermetures manuelles (Maintenance, Événements, Examens) et surcharges de capacité.">Admin controls for manual closures (Maintenance, Events, Exams) and capacity overrides.</li>
+              <li data-en="Direct Google Maps integration for building navigation." data-fr="Intégration directe de Google Maps pour la navigation dans le bâtiment.">Direct Google Maps integration for building navigation.</li>
+            </ul>
+            <div class="tech-stack">
+              <span>ESP32</span><span>C++</span><span>Python</span><span>Java</span><span>Firebase</span><span>mmWave Radar</span><span>Android</span>
+            </div>
+          </div>
+          <div class="project-image-row">
+            <img src="assets/SimulationPlot.png" alt="SeatFindr — Simulation plot" loading="lazy">
+            <img src="assets/SeatFinderMainActivity.jpg" alt="SeatFindr — Android main activity" loading="lazy">
+            <img src="assets/ESP32HowItLooksInside.jpg" alt="SeatFindr — ESP32 hardware inside" loading="lazy">
+          </div>
+        </div>
+      </article>
+
+      <article class="project" id="campus-events">
+        <header class="project-header">
+          <div class="project-id-col"><span class="project-num">02</span></div>
+          <div class="project-title-col">
+            <div class="project-tags">
+              <span class="tag tag--blue">Full-Stack</span>
+              <span class="tag tag--blue">Web</span>
+              <span class="tag tag--blue">React</span>
+              <span class="tag tag--gray">SOEN 341</span>
+            </div>
+            <h3 class="project-name">Campus Events &amp; Ticketing <em data-en="— Web Application" data-fr="— Application Web">— Web Application</em></h3>
+          </div>
+        </header>
+        <div class="project-body">
+          <div class="project-left project-left--wide">
+            <p class="project-desc" data-en="Full-stack platform for university event management and ticket distribution." data-fr="Plateforme full-stack pour la gestion d'événements universitaires et la distribution de billets.">Full-stack platform for university event management and ticket distribution.</p>
+            <ul class="feature-list">
+              <li data-en="Built with React.js (frontend) and Express.js (backend API)." data-fr="Construit avec React.js (frontend) et Express.js (API backend).">Built with React.js (frontend) and Express.js (backend API).</li>
+              <li data-en="Real-time Firebase syncing and secure user authentication." data-fr="Synchronisation Firebase en temps réel et authentification utilisateur sécurisée.">Real-time Firebase syncing and secure user authentication.</li>
+              <li data-en="Automated unique QR code generation for event check-ins." data-fr="Génération automatique de codes QR uniques pour les enregistrements d'événements.">Automated unique QR code generation for event check-ins.</li>
+            </ul>
+            <div class="tech-stack"><span>React.js</span><span>Express.js</span><span>Node.js</span><span>Firebase</span><span>QR Code API</span></div>
+          </div>
+          <div class="project-demo-link">
+            <a href="https://www.youtube.com/watch?v=JCY2xazD2kg"
+               target="_blank"
+               rel="noopener"
+               class="btn btn--ghost"
+               data-en="▶ Watch Demo on YouTube"
+               data-fr="▶ Voir la démo sur YouTube">▶ Watch Demo on YouTube</a>
+            <p class="demo-note"
+               data-en="(Demo video produced by my team)"
+               data-fr="(Vidéo de démonstration réalisée par mon équipe)">(Demo video produced by my team)</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="project" id="hovercraft">
+        <header class="project-header">
+          <div class="project-id-col"><span class="project-num">03</span></div>
+          <div class="project-title-col">
+            <div class="project-tags">
+              <span class="tag tag--blue">Embedded</span>
+              <span class="tag tag--blue">Hardware</span>
+              <span class="tag tag--gray">ENGR 290</span>
+            </div>
+            <h3 class="project-name">Hovercraft Prototype <em data-en="— Autonomous Control System" data-fr="— Système de Contrôle Autonome">— Autonomous Control System</em></h3>
+          </div>
+        </header>
+        <div class="project-body">
+          <div class="project-left project-left--wide">
+            <p class="project-desc" data-en="Functional hovercraft built from scratch with full Arduino-controlled embedded systems." data-fr="Aéroglisseur fonctionnel construit de zéro avec un système embarqué entièrement contrôlé par Arduino.">Functional hovercraft built from scratch with full Arduino-controlled embedded systems.</p>
+            <ul class="feature-list">
+              <li data-en="Arduino-controlled embedded system utilizing an IMU for active stability." data-fr="Système embarqué contrôlé par Arduino utilisant un IMU pour la stabilité active.">Arduino-controlled embedded system utilizing an IMU for active stability.</li>
+              <li data-en="2 DC Fans for independent lift and thrust control." data-fr="2 ventilateurs DC pour le contrôle indépendant de la portance et de la poussée.">2 DC Fans for independent lift and thrust control.</li>
+              <li data-en="Servomotor-based directional steering with custom base and skirt design." data-fr="Direction par servomoteur avec conception personnalisée de la base et de la jupe.">Servomotor-based directional steering with custom base and skirt design.</li>
+            </ul>
+            <div class="tech-stack"><span>Arduino</span><span>C++</span><span>IMU</span><span>DC Motors</span><span>Servomotor</span></div>
+          </div>
+          <div class="project-image-row">
+            <img src="assets/HoverCraft1.jpg" alt="Hovercraft — Prototype view 1" loading="lazy">
+            <img src="assets/HoverCraft2.jpg" alt="Hovercraft — Prototype view 2" loading="lazy">
+          </div>
+        </div>
+      </article>
+
+      <article class="project" id="freelance">
+        <header class="project-header">
+          <div class="project-id-col"><span class="project-num">04</span></div>
+          <div class="project-title-col">
+            <div class="project-tags">
+              <span class="tag tag--gray">Administration</span>
+              <span class="tag tag--gray">Data Management</span>
+              <span class="tag tag--gray">Customer Service</span>
+            </div>
+            <h3 class="project-name">Auto École Jean <em data-en="— Office Agent" data-fr="— Agent de Bureau">— Office Agent</em></h3>
+          </div>
+        </header>
+        <div class="project-body">
+          <div class="project-left project-left--wide">
+            <p class="project-desc" data-en="Administrative management and digital transition of client records for a local driving school." data-fr="Gestion administrative et transition numérique des dossiers clients au sein d'une école de conduite.">Administrative management and digital transition of client records for a local driving school.</p>
+            <ul class="feature-list">
+              <li data-en="Managed the digitalization of client data (medical and registration forms) during the transition from physical paper folders to digital records." data-fr="Pilotage de la transition des dossiers papier vers le format numérique (saisie et numérisation des fiches médicales et formulaires d'inscription).">Managed the digitalization of client data (medical and registration forms) during the transition from physical paper folders to digital records.</li>
+              <li data-en="Extensive use of Excel for student record tracking, data structuring, and information management." data-fr="Utilisation intensive d'Excel pour le suivi des dossiers élèves, la structuration des données et la gestion de l'information.">Extensive use of Excel for student record tracking, data structuring, and information management.</li>
+              <li data-en="Front-line customer service: onboarding clients, explaining packages, processing payments, and issuing official SAAQ attestations." data-fr="Service client de première ligne : accueil, explication des forfaits, traitement des paiements et émission des attestations officielles de la SAAQ.">Front-line customer service: onboarding clients, explaining packages, processing payments, and issuing official SAAQ attestations.</li>
+            </ul>
+            <div class="tech-stack"><span>Excel</span><span>Data Entry</span><span>SAAQ</span></div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="contact">
+      <div class="section-intro">
+        <span class="section-index">03</span>
+        <h2 data-en="Contact" data-fr="Contact">Contact</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-text">
+          <p data-en="Open to internship opportunities, full-time roles, and freelance projects." data-fr="Disponible pour des stages, des postes à temps plein et des projets freelance.">Open to internship opportunities, full-time roles, and freelance projects.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:aminemefti@hotmail.com" class="contact-link">
+            <span class="contact-link-label" data-en="Email" data-fr="Courriel">Email</span>
+            <span class="contact-link-value">aminemefti@hotmail.com</span>
+          </a>
+          <a href="https://www.linkedin.com/in/amine-mefti-007589307/" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-label" data-en="LinkedIn" data-fr="LinkedIn">LinkedIn</span>
+            <span class="contact-link-value">linkedin.com/in/amine-mefti</span>
+          </a>
+          <a href="https://github.com/AMef2" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-label">GitHub</span>
+            <span class="contact-link-value">github.com/AMef2</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="site-footer">
+    <div class="footer-inner">
+      <span class="footer-name">Amine Mefti</span>
+      <span class="footer-sep" aria-hidden="true">·</span>
+      <span class="footer-school" data-en="Computer Engineering — Concordia University" data-fr="Génie Informatique — Université Concordia">Computer Engineering — Concordia University</span>
+      <span class="footer-sep" aria-hidden="true">·</span>
+      <span class="footer-year">2025</span>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="hidden">
+    <img id="lightbox-img" src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
