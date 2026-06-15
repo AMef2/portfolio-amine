@@ -466,6 +466,26 @@ section {
   grid-row: 1;
 }
 
+/* TaskSplit — stacked layout */
+.project#tasksplit .project-body {
+  grid-template-columns: 56px 1fr;
+  grid-template-rows: auto auto;
+}
+
+.project#tasksplit .project-left {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.project#tasksplit .project-image-row {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.project#tasksplit .project-image-row img {
+  max-width: 220px;
+}
+
 /* Hovercraft — stacked layout */
 .project#hovercraft .project-body {
   grid-template-columns: 56px 1fr;
