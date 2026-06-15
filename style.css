@@ -329,16 +329,6 @@ section {
   padding-bottom: 1.25rem;
 }
 
-.section-intro--sub {
-  margin-top: 3rem;
-  border-bottom-color: var(--c-border-lt);
-}
-
-.section-intro--sub h2 {
-  font-size: clamp(1rem, 2vw, 1.25rem);
-  color: var(--c-ink-3);
-}
-
 .section-index {
   font-size: 0.7rem;
   font-weight: 700;
